@@ -76,7 +76,7 @@ the best, with Random Forest slightly outperforming others in terms of RMSE (5.5
 variance explained (76.8%). MARS and SVM also showed strong performance,
 suggesting they capture key nonlinear relationships better than other approaches.
 
-![image](https://github.com/user-attachments/assets/8b65e2e7-4801-4c7e-a7d2-efec692ee598)
+![image](https://github.com/user-attachments/assets/a401bd2b-d043-4d7a-a5b2-8a8eb0076f17)
 
 # Interpretation and Insights
 The distance to the coast was identified as the most significant factor influencing house
