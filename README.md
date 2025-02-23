@@ -40,12 +40,19 @@ with an RMSE of 6.96.
 3) Lasso Regression: Achieved similar performance to linear regression with an RMSE
 of 6.94.
 
-4) MARS (Multivariate Adaptive Regression Splines): Showed better performance
+![image](https://github.com/user-attachments/assets/10fe8f01-1f1d-451d-9396-15eb8e14c2c1)
+
+
+5) MARS (Multivariate Adaptive Regression Splines): Showed better performance
 with an RMSE of 5.71 and explained 76.3% of the variance.
+
+![image](https://github.com/user-attachments/assets/df88c370-e3c9-4b6c-8284-92b2d7c8338a)
+
 
 5) Neural Network: Used a network with hidden layers (2 and 3 neurons), achieving an
 RMSE of 6.14 and R² of 0.709.
 
+![image](https://github.com/user-attachments/assets/622de024-3005-4df9-a4ca-53e4c981a94e)
 
 6) K-Nearest Neighbors (KNN): Produced an RMSE of 6.75 and an R² of 0.677.
 
@@ -55,16 +62,21 @@ the variance.
 8) CART (Classification and Regression Tree): Had the lowest R² value (0.572) with
 an RMSE of 7.45, indicating less effective prediction.
 
+![image](https://github.com/user-attachments/assets/cc1e103d-0c0a-413d-8427-c2f31b9ce00b)
+
 9) Random Forest: Provided the best overall performance with an RMSE of 5.52 and
 an R² of 0.768.
+
+![image](https://github.com/user-attachments/assets/eac52993-801f-40f0-b5eb-21de1c7600c0)
+
 
 # Model Comparison
 The models were evaluated based on RMSE and R² values. Random Forest performed
 the best, with Random Forest slightly outperforming others in terms of RMSE (5.52) and
 variance explained (76.8%). MARS and SVM also showed strong performance,
 suggesting they capture key nonlinear relationships better than other approaches.
-![image](https://github.com/user-attachments/assets/8b65e2e7-4801-4c7e-a7d2-efec692ee598)
 
+![image](https://github.com/user-attachments/assets/8b65e2e7-4801-4c7e-a7d2-efec692ee598)
 
 # Interpretation and Insights
 The distance to the coast was identified as the most significant factor influencing house
